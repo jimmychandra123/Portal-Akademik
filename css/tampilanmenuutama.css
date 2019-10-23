@@ -1,0 +1,218 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+.wrapper{
+	min-height:400px;
+	margin:0 auto;
+	width: 1000px;
+}
+.header {
+
+	width: 100%;
+max-height: 50%;
+	border: 1px solid;
+	background-color: rgba(0, 0, 0, 0.03);
+	text-align: center;
+
+}
+
+.menu {
+	width: 20%;
+	min-height: 900px;
+		
+	float: left;
+	margin: 1%;	
+	text-align: left;
+	
+}
+
+.menu a {
+  background-color: rgba(0, 0, 0, 0.03);
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #ccc;
+}
+
+.menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.menu h2 {
+  background-color: blue;
+  color: white;
+
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+
+.konten {
+	width: 75%;
+	min-height: 200px;
+	border: 1px solid;
+	float: left;	
+	margin: 1%;
+	margin-bottom: 4%;
+	overflow: hidden;
+}
+.isikonten{
+	padding-top: 20px;
+	padding-bottom: 10px;	
+	width:700px;
+	text-align: left;
+	margin: 1%;
+	overflow: hidden;
+}
+.isikonten2{
+	padding-top: 20px;
+	padding-bottom: 10px;	
+	width:700px;
+	min-height: 500px;
+	text-align: left;
+	margin: 1%;
+	overflow: hidden;
+}
+
+.konten h2{
+  background-color: blue;
+  color: white;
+
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.profil{
+	width: 100%;
+	min-height: 200px;
+	border: 1px solid;
+	overflow: hidden;
+	text-align: center;
+}
+.profil p{
+background-color: blue;
+color: white;
+display: block;
+padding: 12px;
+text-decoration: none;
+}
+
+
+.pengumuman{
+	width: 223.3px;
+	min-height: 400px;
+	border: 1px solid;
+	float: left;
+	padding: 10px;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	overflow: hidden;
+}
+
+.pengumuman a{
+
+	font-size: 11px;
+	color: red;
+   	text-decoration: none;
+
+}
+.pengumuman a:hover {
+  background-color: #ccc;
+}
+
+.pengumuman a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.pengumuman2{
+	width: 223.3px;
+	min-height: 400px;
+	border-top: 1px solid; 
+	border-bottom: 1px solid;
+	float: left;
+	padding: 10px;
+	
+	margin-bottom: 1%;
+	
+}
+.pengumuman2 a{
+
+	font-size: 11px;
+	color: red;
+    text-decoration: none;
+}
+
+
+.pengumuman3{
+	width: 223.3px;
+	min-height: 400px;
+	border: 1px solid;
+	float: left;
+	padding: 10px;
+	margin-bottom: 1%;
+	margin-right: 1% 
+}
+.pengumuman3 a{
+
+	font-size: 11px;
+	color: red;
+	text-decoration: none;
+}
+
+
+
+.footer{
+	width: 100%;
+
+	border: 1px solid;
+	background-color: blue;
+	overflow: hidden;
+	margin: 1%
+	
+}
+.footer h2{
+  background-color: blue;
+  color: white;
+ padding: 5px;
+}
+
+.tabel {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabel td, .tabel th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+.tabel tr:hover {background-color: #ddd;}
+
+.tabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+
+}
+.tabel a{
+	text-decoration: none;
+	color: blue;
+}
+
+
+
+
